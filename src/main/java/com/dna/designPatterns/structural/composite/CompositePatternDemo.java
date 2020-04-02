@@ -19,6 +19,7 @@ package com.dna.designPatterns.structural.composite;
 *
 * ##############    Pitfalls    ###############
 * Since parent and child are treated in same way it is difficult to impose restrictions
+* Due to above reason sometimes we need to rely on runtime check
 *
 * */
 public class CompositePatternDemo {
