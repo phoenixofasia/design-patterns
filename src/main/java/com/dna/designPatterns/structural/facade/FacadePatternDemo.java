@@ -21,7 +21,9 @@ import java.net.URL;
 * Shouldn't have a need for composition
 * Typically encompasses full lifecycle
 *
+* ###   Pitfalls    ###
 * Misused or overused
+*
 * */
 public class FacadePatternDemo {
 
