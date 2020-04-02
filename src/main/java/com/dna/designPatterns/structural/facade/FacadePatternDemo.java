@@ -20,6 +20,8 @@ import java.net.URL;
 * Class that utilizes composition
 * Shouldn't have a need for composition
 * Typically encompasses full lifecycle
+*
+* Misused or overused
 * */
 public class FacadePatternDemo {
 
