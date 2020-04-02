@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.12'
+    compile 'mysql:mysql-connector-java:8.0.19'
     annotationProcessor 'org.projectlombok:lombok:1.18.12'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

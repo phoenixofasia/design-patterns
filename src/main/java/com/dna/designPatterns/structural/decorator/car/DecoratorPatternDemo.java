@@ -16,6 +16,11 @@ package com.dna.designPatterns.structural.decorator.car;
 * Alternative to subclassing
 * Constructor requires instance from hierarchy
 *
+* ###   Pitfalls    ###
+* New class for every feature added
+* Multiple little objects
+*
+*
 * */
 
 import com.dna.designPatterns.structural.decorator.employee.AdditionalDetailsEmployeeDecorator;
