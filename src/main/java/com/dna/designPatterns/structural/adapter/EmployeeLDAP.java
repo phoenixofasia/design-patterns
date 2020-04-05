@@ -1,8 +1,10 @@
 package com.dna.designPatterns.structural.adapter;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
+@AllArgsConstructor
 public class EmployeeLDAP {
 
     private int cn;
@@ -10,10 +12,4 @@ public class EmployeeLDAP {
     private String surName;
     private String mail;
 
-    public EmployeeLDAP(int cn, String givenName, String surName, String mail) {
-        this.cn = cn;
-        this.givenName = givenName;
-        this.surName = surName;
-        this.mail = mail;
-    }
 }

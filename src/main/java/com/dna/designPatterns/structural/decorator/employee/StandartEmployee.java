@@ -1,8 +1,10 @@
 package com.dna.designPatterns.structural.decorator.employee;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
+@AllArgsConstructor
 public class StandartEmployee implements Employee {
 
     private Integer id;
@@ -11,11 +13,4 @@ public class StandartEmployee implements Employee {
     private String lastName;
     private Double salary;
 
-    public StandartEmployee(Integer id, Gender gender, String firstName, String lastName, Double salary) {
-        this.id = id;
-        this.gender = gender;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.salary = salary;
-    }
 }

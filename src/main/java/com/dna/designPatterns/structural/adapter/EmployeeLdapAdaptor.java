@@ -1,12 +1,11 @@
 package com.dna.designPatterns.structural.adapter;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class EmployeeLdapAdaptor implements Employee {
 
     private EmployeeLDAP employeeLDAP;
-
-    public EmployeeLdapAdaptor(EmployeeLDAP employeeLDAP) {
-        this.employeeLDAP = employeeLDAP;
-    }
 
     @Override
     public int getId() {

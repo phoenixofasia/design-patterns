@@ -1,11 +1,11 @@
 package com.dna.designPatterns.structural.bridge.color;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class Square extends Shape {
 
-    private Color color;
-    public Square(Color color) {
-        this.color = color;
-    }
+    private final Color color;
 
     @Override
     public void applyColor() {

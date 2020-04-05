@@ -1,4 +1,4 @@
-package com.dna.designPatterns.structural.decorator.car;
+package com.dna.designPatterns.structural.decorator;
 
 /*
 *
@@ -23,6 +23,10 @@ package com.dna.designPatterns.structural.decorator.car;
 *
 * */
 
+import com.dna.designPatterns.structural.decorator.car.Car;
+import com.dna.designPatterns.structural.decorator.car.PremiumDecorator;
+import com.dna.designPatterns.structural.decorator.car.SafetyDecorator;
+import com.dna.designPatterns.structural.decorator.car.StandardCar;
 import com.dna.designPatterns.structural.decorator.employee.AdditionalDetailsEmployeeDecorator;
 import com.dna.designPatterns.structural.decorator.employee.Employee;
 import com.dna.designPatterns.structural.decorator.employee.Gender;
